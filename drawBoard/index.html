@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>画板</title>
+    <link rel="stylesheet" href="css.css"/>
+    <script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
+</head>
+<body>
+<!--<header></header>-->
+
+<div class="main">
+
+
+
+
+    <div class="mid">
+        <div class="canvas">
+                <sapn class="draw" id="hua">在此处作画...</sapn>
+            <canvas id="can" width="400px" height="400px"> <!--宽高写在html里，写在css里有问题-->
+                <span>该浏览器不支持canvas内容</span> <!--对于不支持canvas的浏览器显示-->
+            </canvas>
+        </div>
+        <input id="reset"  type="button" value="清空画布">
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

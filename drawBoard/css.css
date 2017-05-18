@@ -1,0 +1,40 @@
+.main{
+    text-align: center;
+}
+#can {
+    background-color: white;
+    border: 2px solid #28cc9e;
+    cursor: crosshair;
+    border-radius: 10px;
+    display: inline;
+}                                                       /*display: inline与text-align: center配合可实现水平居中*/
+.canvas{
+    margin-top: 50px;
+    text-align: center;
+}
+.draw{
+    position: absolute;
+    margin: 10px;
+    font-size: 18px;
+    color: #ccc;
+    z-index: 999;
+}
+
+#reset{
+    padding:10px 30px;
+    border:2px solid #28cc9e ;
+    background-color: #28cc9e;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 30px;
+}
+#reset:hover{
+    background-color: #41b883;
+    border:2px solid #41b883 ;
+    cursor: pointer;
+}
+
+
+
+
